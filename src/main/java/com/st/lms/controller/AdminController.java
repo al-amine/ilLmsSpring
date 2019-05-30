@@ -29,6 +29,7 @@ import com.st.lms.service.AdminService;
 import com.st.lms.utils.DateCalculations;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/admin")
 public class AdminController {
 	
